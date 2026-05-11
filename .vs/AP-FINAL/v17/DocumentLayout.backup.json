@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F17353-ECCF-4F15-B761-2C272AFC4A58}|Data\\Data.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\data\\prestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F17353-ECCF-4F15-B761-2C272AFC4A58}|Data\\Data.csproj|solutionrelative:data\\prestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\ap-final\\controllers\\prestationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|solutionrelative:ap-final\\controllers\\prestationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\ap-final\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|solutionrelative:ap-final\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\ap-final\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|solutionrelative:ap-final\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\ap-final\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|solutionrelative:ap-final\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\ap-final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|solutionrelative:ap-final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\ap-final\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|solutionrelative:ap-final\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F17353-ECCF-4F15-B761-2C272AFC4A58}|Data\\Data.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\data\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F17353-ECCF-4F15-B761-2C272AFC4A58}|Data\\Data.csproj|solutionrelative:data\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48420E19-4556-4B41-99DC-C9DD2F1A12FB}|Repository\\Repository.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\repository\\mysqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48420E19-4556-4B41-99DC-C9DD2F1A12FB}|Repository\\Repository.csproj|solutionrelative:repository\\mysqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\ap-final\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|solutionrelative:ap-final\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F17353-ECCF-4F15-B761-2C272AFC4A58}|Data\\Data.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\data\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F17353-ECCF-4F15-B761-2C272AFC4A58}|Data\\Data.csproj|solutionrelative:data\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|d:\\clement.bourbon\\ap-final\\ap-final\\ap-final\\dbcontext\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ABB935-8C05-40F3-92CE-3C2360DD9721}|AP-FINAL\\AP-FINAL.csproj|solutionrelative:ap-final\\dbcontext\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AP-FINAL\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AP-FINAL\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAgwOoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:21:28.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrestationController.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Controllers\\PrestationController.cs",
+              "RelativeDocumentMoniker": "AP-FINAL\\Controllers\\PrestationController.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Controllers\\PrestationController.cs",
+              "RelativeToolTip": "AP-FINAL\\Controllers\\PrestationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T13:21:09.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AP-FINAL\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AP-FINAL\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:05:31.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MediaController.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Controllers\\MediaController.cs",
+              "RelativeDocumentMoniker": "AP-FINAL\\Controllers\\MediaController.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Controllers\\MediaController.cs",
+              "RelativeToolTip": "AP-FINAL\\Controllers\\MediaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T13:37:17.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\appsettings.json",
+              "RelativeDocumentMoniker": "AP-FINAL\\appsettings.json",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\appsettings.json",
+              "RelativeToolTip": "AP-FINAL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-09T13:35:57.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Program.cs",
+              "RelativeDocumentMoniker": "AP-FINAL\\Program.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Program.cs",
+              "RelativeToolTip": "AP-FINAL\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T13:14:31.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Data\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "Data\\Utilisateur.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Data\\Utilisateur.cs",
+              "RelativeToolTip": "Data\\Utilisateur.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAWwFsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T15:50:04.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Media.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Data\\Media.cs",
+              "RelativeDocumentMoniker": "Data\\Media.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Data\\Media.cs",
+              "RelativeToolTip": "Data\\Media.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T13:17:09.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "AP-FINAL\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\Controllers\\BookController.cs",
+              "RelativeToolTip": "AP-FINAL\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T13:14:13.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MysqlRepository.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Repository\\MysqlRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\MysqlRepository.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Repository\\MysqlRepository.cs",
+              "RelativeToolTip": "Repository\\MysqlRepository.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAowFwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:36:18.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prestation.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Data\\Prestation.cs",
+              "RelativeDocumentMoniker": "Data\\Prestation.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Data\\Prestation.cs",
+              "RelativeToolTip": "Data\\Prestation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T13:23:10.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "APIDbContext.cs",
+              "DocumentMoniker": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\DBContext\\APIDbContext.cs",
+              "RelativeDocumentMoniker": "AP-FINAL\\DBContext\\APIDbContext.cs",
+              "ToolTip": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\AP-FINAL\\DBContext\\APIDbContext.cs",
+              "RelativeToolTip": "AP-FINAL\\DBContext\\APIDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T13:14:17.691Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
