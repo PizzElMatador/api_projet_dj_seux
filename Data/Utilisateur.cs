@@ -17,6 +17,7 @@ namespace Bibliotheque_classe_projet_Seux
         
         private DateTime date_inscription;
         private string aspNetUserId;
+        
 
 
         // Propriétés publiques
@@ -26,6 +27,7 @@ namespace Bibliotheque_classe_projet_Seux
         
         public DateTime Date_inscription { get => date_inscription; set => date_inscription = value; }
         public string AspNetUserId { get => aspNetUserId; set => aspNetUserId = value; } // ajouter  19/03/26
+        public string Role { get; set; } // ajouter 28/05/26
 
 
         // Constructeur par défaut
@@ -91,12 +93,13 @@ namespace Bibliotheque_classe_projet_Seux
         // Remplit l'objet avec les données venant du DataReader
         public override void FillWithDataReader(DbDataReader reader)
         {
-            base.FillWithDataReader(reader); // Appel à la méthode parent pour remplir l'ID
+            this.Id = System.Convert.ToInt32(reader["id_utilisateur"]);
             this.Nom = reader["nom"].ToString();
             this.Prenom = reader["prenom"].ToString();
             this.Email = reader["email"].ToString();
             this.Date_inscription = Convert.ToDateTime(reader["date_inscription"]);
             this.AspNetUserId = reader["AspNetUserId"].ToString()!;
+            this.Role = reader["Role"]?.ToString();
 
         }
 

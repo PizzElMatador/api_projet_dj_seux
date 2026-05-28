@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net9.0": {
       "BouncyCastle.Cryptography/2.6.2": {
@@ -596,23 +596,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clement.bourbon.BTSSIO-CARRIAT\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\cleme\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\cleme\\Desktop\\API_PROJET\\api_projet_dj_seux\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\clement.bourbon.BTSSIO-CARRIAT\\.nuget\\packages\\",
-      "outputPath": "D:\\clement.bourbon\\AP-FINAL\\AP-FINAL\\Repository\\obj\\",
+      "projectPath": "C:\\Users\\cleme\\Desktop\\API_PROJET\\api_projet_dj_seux\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\cleme\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cleme\\Desktop\\API_PROJET\\api_projet_dj_seux\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\clement.bourbon.BTSSIO-CARRIAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cleme\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -625,6 +625,7 @@
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {}
         }
@@ -639,10 +640,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net9.0": {
+        "framework": "net9.0",
         "targetAlias": "net9.0",
         "dependencies": {
           "MySql.Data": {
@@ -666,7 +668,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

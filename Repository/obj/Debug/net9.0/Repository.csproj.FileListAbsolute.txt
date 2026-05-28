@@ -23,3 +23,16 @@ D:\clement.bourbon\AP-FINAL\AP-FINAL\Repository\obj\Debug\net9.0\Repository.dll
 D:\clement.bourbon\AP-FINAL\AP-FINAL\Repository\obj\Debug\net9.0\refint\Repository.dll
 D:\clement.bourbon\AP-FINAL\AP-FINAL\Repository\obj\Debug\net9.0\Repository.pdb
 D:\clement.bourbon\AP-FINAL\AP-FINAL\Repository\obj\Debug\net9.0\ref\Repository.dll
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\bin\Debug\net9.0\Repository.deps.json
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\bin\Debug\net9.0\Repository.dll
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\bin\Debug\net9.0\Repository.pdb
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\obj\Debug\net9.0\Repository.csproj.AssemblyReference.cache
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\obj\Debug\net9.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\obj\Debug\net9.0\Repository.AssemblyInfoInputs.cache
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\obj\Debug\net9.0\Repository.AssemblyInfo.cs
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\obj\Debug\net9.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\obj\Debug\net9.0\Repository.sourcelink.json
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\obj\Debug\net9.0\Repository.dll
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\obj\Debug\net9.0\refint\Repository.dll
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\obj\Debug\net9.0\Repository.pdb
+C:\Users\cleme\Desktop\API_PROJET\api_projet_dj_seux\Repository\obj\Debug\net9.0\ref\Repository.dll

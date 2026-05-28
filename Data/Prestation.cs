@@ -67,7 +67,7 @@ namespace Bibliotheque_classe_projet_Seux
 
         public override void FillWithDataReader(DbDataReader reader)
         {
-            base.FillWithDataReader(reader);
+            this.Id = System.Convert.ToInt32(reader["id_prestation"]);
             this.Nom_prestation = reader["nom_prestation"].ToString();
             this.Description_presta = reader["description_presta"].ToString();
             this.Prix = System.Convert.ToDecimal(reader["prix"]);
