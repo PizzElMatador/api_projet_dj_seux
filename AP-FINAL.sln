@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP-FINAL", "AP-FINAL\AP-FINAL.csproj", "{72ABB935-8C05-40F3-92CE-3C2360DD9721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{48420E19-4556-4B41-99DC-C9DD2F1A12FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{B6F17353-ECCF-4F15-B761-2C272AFC4A58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72ABB935-8C05-40F3-92CE-3C2360DD9721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72ABB935-8C05-40F3-92CE-3C2360DD9721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72ABB935-8C05-40F3-92CE-3C2360DD9721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72ABB935-8C05-40F3-92CE-3C2360DD9721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48420E19-4556-4B41-99DC-C9DD2F1A12FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48420E19-4556-4B41-99DC-C9DD2F1A12FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48420E19-4556-4B41-99DC-C9DD2F1A12FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48420E19-4556-4B41-99DC-C9DD2F1A12FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F17353-ECCF-4F15-B761-2C272AFC4A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F17353-ECCF-4F15-B761-2C272AFC4A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F17353-ECCF-4F15-B761-2C272AFC4A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F17353-ECCF-4F15-B761-2C272AFC4A58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B6FAA3F-3D0D-4C74-9410-29C1527028B9}
+	EndGlobalSection
+EndGlobal

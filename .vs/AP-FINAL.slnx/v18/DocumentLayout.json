@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cleme\\Documents\\AP-FINAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api_projet_dj_seux\\AP-FINAL\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Data\\Prestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api_projet_dj_seux\\Data\\Prestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Repository\\BDDObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api_projet_dj_seux\\Repository\\BDDObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Repository\\MysqlRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api_projet_dj_seux\\Repository\\MysqlRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\Controllers\\PrestationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api_projet_dj_seux\\AP-FINAL\\Controllers\\PrestationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api_projet_dj_seux\\AP-FINAL\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api_projet_dj_seux\\AP-FINAL\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Data\\Moyen_paiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api_projet_dj_seux\\Data\\Moyen_paiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BDDObject.cs",
+              "DocumentMoniker": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Repository\\BDDObject.cs",
+              "RelativeDocumentMoniker": "api_projet_dj_seux\\Repository\\BDDObject.cs",
+              "ToolTip": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Repository\\BDDObject.cs",
+              "RelativeToolTip": "api_projet_dj_seux\\Repository\\BDDObject.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:20:20.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prestation.cs",
+              "DocumentMoniker": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Data\\Prestation.cs",
+              "RelativeDocumentMoniker": "api_projet_dj_seux\\Data\\Prestation.cs",
+              "ToolTip": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Data\\Prestation.cs",
+              "RelativeToolTip": "api_projet_dj_seux\\Data\\Prestation.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAwEYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:14:38.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MysqlRepository.cs",
+              "DocumentMoniker": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Repository\\MysqlRepository.cs",
+              "RelativeDocumentMoniker": "api_projet_dj_seux\\Repository\\MysqlRepository.cs",
+              "ToolTip": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Repository\\MysqlRepository.cs",
+              "RelativeToolTip": "api_projet_dj_seux\\Repository\\MysqlRepository.cs",
+              "ViewState": "AgIAAEIBAAAAAAAAAAAQwFwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:13:51.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrestationController.cs",
+              "DocumentMoniker": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\Controllers\\PrestationController.cs",
+              "RelativeDocumentMoniker": "api_projet_dj_seux\\AP-FINAL\\Controllers\\PrestationController.cs",
+              "ToolTip": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\Controllers\\PrestationController.cs",
+              "RelativeToolTip": "api_projet_dj_seux\\AP-FINAL\\Controllers\\PrestationController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:13:29.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "api_projet_dj_seux\\AP-FINAL\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\appsettings.Development.json",
+              "RelativeToolTip": "api_projet_dj_seux\\AP-FINAL\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-17T16:25:42.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\appsettings.json",
+              "RelativeDocumentMoniker": "api_projet_dj_seux\\AP-FINAL\\appsettings.json",
+              "ToolTip": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\appsettings.json",
+              "RelativeToolTip": "api_projet_dj_seux\\AP-FINAL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-17T16:25:36.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\Program.cs",
+              "RelativeDocumentMoniker": "api_projet_dj_seux\\AP-FINAL\\Program.cs",
+              "ToolTip": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\AP-FINAL\\Program.cs",
+              "RelativeToolTip": "api_projet_dj_seux\\AP-FINAL\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T15:44:49.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Moyen_paiement.cs",
+              "DocumentMoniker": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Data\\Moyen_paiement.cs",
+              "RelativeDocumentMoniker": "api_projet_dj_seux\\Data\\Moyen_paiement.cs",
+              "ToolTip": "C:\\Users\\cleme\\Documents\\AP-FINAL\\api_projet_dj_seux\\Data\\Moyen_paiement.cs",
+              "RelativeToolTip": "api_projet_dj_seux\\Data\\Moyen_paiement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T15:44:34.781Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
