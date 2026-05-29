@@ -23,8 +23,32 @@ namespace AP_FINAL.Controllers
         public IEnumerable<Prestation> GetAllPrestations([FromQuery] Prestation? p)
         {
             MysqlRepository repo = new MysqlRepository(_configuration.GetConnectionString("DefaultConnection"));
-            List<Prestation> prestations = repo.GetByPredicate(p ?? new Prestation()).Cast<Prestation>().ToList();
-            return prestations;
+
+            List<Prestation> prestations =
+                repo.GetByPredicate(p ?? new Prestation())
+                    .Cast<Prestation>()
+                    .ToList();
+
+            using var connection = new MySql.Data.MySqlClient.MySqlConnection(
+                _configuration.GetConnectionString("DefaultConnection"));
+
+            connection.Open();
+
+            var cmd = new MySql.Data.MySqlClient.MySqlCommand(
+                "SELECT id_prestation FROM reservation",
+                connection);
+
+            var prestationsReservees = new List<int>();
+
+            using var reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                prestationsReservees.Add(Convert.ToInt32(reader["id_prestation"]));
+            }
+
+            return prestations.Where(prestation =>
+                !prestationsReservees.Contains(prestation.Id_prestation)
+            );
         }
 
         /// <summary>

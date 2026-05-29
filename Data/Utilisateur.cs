@@ -28,6 +28,8 @@ namespace Bibliotheque_classe_projet_Seux
         public DateTime Date_inscription { get => date_inscription; set => date_inscription = value; }
         public string AspNetUserId { get => aspNetUserId; set => aspNetUserId = value; } // ajouter  19/03/26
         public string Role { get; set; } // ajouter 28/05/26
+        public string Telephone { get; set; }
+        public string Adresse { get; set; }
 
 
         // Constructeur par défaut
@@ -58,7 +60,9 @@ namespace Bibliotheque_classe_projet_Seux
                 { "prenom", "@prenom" },
                 { "email", "@email" },
                 { "date_inscription", "@date_inscription" },
-                { "AspNetUserId" , "@AspNetUserId" } // ajouter  19/03/26
+                { "AspNetUserId" , "@AspNetUserId" }, // ajouter  19/03/26
+                { "telephone", "@telephone" },
+                { "adresse", "@adresse" },
 
             };
         }
@@ -72,6 +76,8 @@ namespace Bibliotheque_classe_projet_Seux
             mySqlParameters.Add(new MySqlParameter("@email", MySqlDbType.VarChar) { Value = this.Email });
             mySqlParameters.Add(new MySqlParameter("@date_inscription", MySqlDbType.Date) { Value = this.Date_inscription });
             mySqlParameters.Add(new MySqlParameter("@AspNetUserId", MySqlDbType.VarChar, 255) { Value = this.AspNetUserId }); // ajouter  19/03/26
+            mySqlParameters.Add(new MySqlParameter("@telephone", MySqlDbType.VarChar) { Value = this.Telephone });
+            mySqlParameters.Add(new MySqlParameter("@adresse", MySqlDbType.VarChar) { Value = this.Adresse });
 
             return mySqlParameters;
         }
@@ -100,6 +106,8 @@ namespace Bibliotheque_classe_projet_Seux
             this.Date_inscription = Convert.ToDateTime(reader["date_inscription"]);
             this.AspNetUserId = reader["AspNetUserId"].ToString()!;
             this.Role = reader["Role"]?.ToString();
+            this.Telephone = reader["telephone"]?.ToString();
+            this.Adresse = reader["adresse"]?.ToString();
 
         }
 

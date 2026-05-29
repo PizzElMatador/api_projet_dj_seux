@@ -21,6 +21,26 @@ namespace AP_FINAL.Controllers
         {
             try
             {
+                using var connection = new MySql.Data.MySqlClient.MySqlConnection(
+                    _configuration.GetConnectionString("DefaultConnection"));
+                connection.Open();
+
+                var checkCmd = new MySql.Data.MySqlClient.MySqlCommand(@"
+            SELECT COUNT(*)
+            FROM reservation
+            WHERE id_client = @id_client
+            AND id_prestation = @id_prestation", connection);
+
+                checkCmd.Parameters.AddWithValue("@id_client", reservation.Id_client);
+                checkCmd.Parameters.AddWithValue("@id_prestation", reservation.Id_prestation);
+
+                var count = Convert.ToInt32(checkCmd.ExecuteScalar());
+
+                if (count > 0)
+                {
+                    return BadRequest("Vous avez déjà réservé cette prestation.");
+                }
+
                 MysqlRepository repo = new MysqlRepository(_configuration.GetConnectionString("DefaultConnection"));
                 int id = repo.SaveObject(reservation);
 
