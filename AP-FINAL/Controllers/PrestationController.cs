@@ -35,8 +35,8 @@ namespace AP_FINAL.Controllers
             connection.Open();
 
             var cmd = new MySql.Data.MySqlClient.MySqlCommand(
-                "SELECT id_prestation FROM reservation",
-                connection);
+            "SELECT id_prestation FROM reservation WHERE statut IN ('En attente', 'Acceptée')",
+            connection);
 
             var prestationsReservees = new List<int>();
 

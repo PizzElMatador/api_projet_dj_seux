@@ -12,6 +12,7 @@ namespace Bibliotheque_classe_projet_Seux
         private string? description_presta;
         private decimal prix;
         private int id_type;
+        private int id_prestataire;
 
         public string? Nom_prestation { get => nom_prestation; set => nom_prestation = value; }
         public string? Description_presta { get => description_presta; set => description_presta = value; }
@@ -22,6 +23,7 @@ namespace Bibliotheque_classe_projet_Seux
             get => Id;
             set => Id = value;
         }
+        public int Id_prestataire { get => id_prestataire; set => id_prestataire = value; }
 
         public Prestation() { }
 
@@ -42,7 +44,8 @@ namespace Bibliotheque_classe_projet_Seux
                 { "nom_prestation", "@nom_prestation" },
                 { "description_presta", "@description_presta" },
                 { "prix", "@prix" },
-                { "id_type", "@id_type" }
+                { "id_type", "@id_type" },
+                { "id_prestataire", "@id_prestataire" }
             };
         }
 
@@ -53,7 +56,8 @@ namespace Bibliotheque_classe_projet_Seux
                 new MySqlParameter("@nom_prestation", MySqlDbType.VarChar) { Value = this.Nom_prestation },
                 new MySqlParameter("@description_presta", MySqlDbType.VarChar) { Value = this.Description_presta },
                 new MySqlParameter("@prix", MySqlDbType.Decimal) { Value = this.Prix },
-                new MySqlParameter("@id_type", MySqlDbType.Int32) { Value = this.Id_type }
+                new MySqlParameter("@id_type", MySqlDbType.Int32) { Value = this.Id_type },
+                new MySqlParameter("@id_prestataire", MySqlDbType.Int32) { Value = this.Id_prestataire }
             };
         }
 
@@ -77,6 +81,7 @@ namespace Bibliotheque_classe_projet_Seux
             this.Description_presta = reader["description_presta"].ToString();
             this.Prix = System.Convert.ToDecimal(reader["prix"]);
             this.Id_type = System.Convert.ToInt32(reader["id_type"]);
+            this.Id_prestataire = reader["id_prestataire"] == DBNull.Value ? 0 : Convert.ToInt32(reader["id_prestataire"]);
         }
 
         public override Dictionary<string, string> GetPredicateColumns()
@@ -86,6 +91,8 @@ namespace Bibliotheque_classe_projet_Seux
                 columns.Add("nom_prestation", "@nom_prestation");
             if (Id_type > 0)
                 columns.Add("id_type", "@id_type");
+            if (Id_prestataire > 0)
+                columns.Add("id_prestataire", "@id_prestataire");
             return columns;
         }
 
@@ -96,6 +103,8 @@ namespace Bibliotheque_classe_projet_Seux
                 parameters.Add(new MySqlParameter("@nom_prestation", MySqlDbType.VarChar) { Value = this.Nom_prestation });
             if (Id_type > 0)
                 parameters.Add(new MySqlParameter("@id_type", MySqlDbType.Int32) { Value = this.Id_type });
+            if (Id_prestataire > 0)
+                parameters.Add(new MySqlParameter("@id_prestataire", MySqlDbType.Int32) { Value = this.Id_prestataire });
             return parameters;
         }
 
