@@ -30,10 +30,11 @@ namespace AP_FINAL.Controllers
             _configuration = configuration;
         }
 
-        private async Task<(string firstName, string lastName)> GetNomPrenomAsync(string aspNetUserId)
+        private async Task<(string firstName, string lastName, int idUtilisateur)> GetNomPrenomAsync(string aspNetUserId)
         {
             string firstName = "";
             string lastName = "";
+            int idUtilisateur = 0;
             try
             {
                 using var connection = new MySql.Data.MySqlClient.MySqlConnection(
@@ -41,7 +42,7 @@ namespace AP_FINAL.Controllers
                 await connection.OpenAsync();
 
                 var cmd = new MySql.Data.MySqlClient.MySqlCommand(
-                    "SELECT prenom, nom FROM Utilisateur WHERE AspNetUserId = @id", connection);
+                    "SELECT prenom, nom, id_utilisateur FROM Utilisateur WHERE AspNetUserId = @id", connection);
                 cmd.Parameters.AddWithValue("@id", aspNetUserId);
 
                 using var reader = await cmd.ExecuteReaderAsync();
@@ -49,13 +50,14 @@ namespace AP_FINAL.Controllers
                 {
                     firstName = reader["prenom"].ToString() ?? "";
                     lastName = reader["nom"].ToString() ?? "";
+                    idUtilisateur = Convert.ToInt32(reader["id_utilisateur"]);
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Erreur récupération nom/prénom : " + ex.Message);
             }
-            return (firstName, lastName);
+            return (firstName, lastName, idUtilisateur);
         }
 
         [HttpPost("Register")]
@@ -99,6 +101,8 @@ namespace AP_FINAL.Controllers
             var token = _tokenService.GenerateAccessToken(user, roles);
             var refreshToken = _tokenService.GenerateRefreshToken();
 
+            var (firstName, lastName, idUtilisateur) = await GetNomPrenomAsync(user.Id);
+
             return Ok(new
             {
                 message = "Inscription réussie",
@@ -108,6 +112,7 @@ namespace AP_FINAL.Controllers
                 user = new
                 {
                     id = user.Id,
+                    idUtilisateur = idUtilisateur,
                     email = user.Email,
                     username = user.UserName,
                     firstName = model.FirstName,
@@ -131,7 +136,7 @@ namespace AP_FINAL.Controllers
             if (!isValidPassword)
                 return Unauthorized(new { message = "Email ou mot de passe incorrect" });
 
-            var (firstName, lastName) = await GetNomPrenomAsync(user.Id);
+            var (firstName, lastName, idUtilisateur) = await GetNomPrenomAsync(user.Id);
 
             var roles = await _userManager.GetRolesAsync(user);
             var token = _tokenService.GenerateAccessToken(user, roles);
@@ -146,6 +151,7 @@ namespace AP_FINAL.Controllers
                 user = new
                 {
                     id = user.Id,
+                    idUtilisateur = idUtilisateur,
                     email = user.Email,
                     username = user.UserName,
                     firstName = firstName,
@@ -165,12 +171,13 @@ namespace AP_FINAL.Controllers
             if (user == null)
                 return NotFound(new { message = "Utilisateur non trouvé" });
 
-            var (firstName, lastName) = await GetNomPrenomAsync(user.Id);
+            var (firstName, lastName, idUtilisateur) = await GetNomPrenomAsync(user.Id);
             var roles = await _userManager.GetRolesAsync(user);
 
             return Ok(new
             {
                 id = user.Id,
+                idUtilisateur = idUtilisateur,
                 email = user.Email,
                 username = user.UserName,
                 firstName = firstName,

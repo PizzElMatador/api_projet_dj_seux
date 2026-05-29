@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\api_projet_dj_seux",
-    "\\api_projet_dj_seux\\AP-FINAL\\Controllers",
-    "\\api_projet_dj_seux\\Data",
-    "\\api_projet_dj_seux\\Repository"
+    "\\AP-FINAL",
+    "\\AP-FINAL\\Controllers",
+    "\\Data",
+    "\\Data\\bin",
+    "\\Data\\obj"
   ],
-  "SelectedNode": "\\api_projet_dj_seux\\AP-FINAL",
+  "SelectedNode": "\\AP-FINAL\\Controllers",
   "PreviewInSolutionExplorer": false
 }

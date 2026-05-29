@@ -17,6 +17,11 @@ namespace Bibliotheque_classe_projet_Seux
         public string? Description_presta { get => description_presta; set => description_presta = value; }
         public decimal Prix { get => prix; set => prix = value; }
         public int Id_type { get => id_type; set => id_type = value; }
+        public int Id_prestation
+        {
+            get => Id;
+            set => Id = value;
+        }
 
         public Prestation() { }
 
