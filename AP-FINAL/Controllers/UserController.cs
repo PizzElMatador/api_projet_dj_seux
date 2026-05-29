@@ -82,6 +82,8 @@ SELECT
     u.email,
     u.date_inscription,
     u.AspNetUserId,
+    u.telephone,
+    u.adresse,
     r.Name AS Role
 FROM utilisateur u
 LEFT JOIN aspnetuserroles ur ON ur.UserId = u.AspNetUserId
