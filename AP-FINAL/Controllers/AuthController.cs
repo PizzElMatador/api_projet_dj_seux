@@ -30,10 +30,12 @@ namespace AP_FINAL.Controllers
             _configuration = configuration;
         }
 
-        private async Task<(string firstName, string lastName, int idUtilisateur)> GetNomPrenomAsync(string aspNetUserId)
+        private async Task<(string firstName, string lastName, int idUtilisateur, string telephone, string adresse)> GetNomPrenomAsync(string aspNetUserId)
         {
             string firstName = "";
             string lastName = "";
+            string telephone = "";
+            string adresse = "";
             int idUtilisateur = 0;
             try
             {
@@ -42,7 +44,7 @@ namespace AP_FINAL.Controllers
                 await connection.OpenAsync();
 
                 var cmd = new MySql.Data.MySqlClient.MySqlCommand(
-                    "SELECT prenom, nom, id_utilisateur FROM Utilisateur WHERE AspNetUserId = @id", connection);
+                    "SELECT prenom, nom, id_utilisateur, telephone, adresse\r\nFROM Utilisateur\r\nWHERE AspNetUserId = @id", connection);
                 cmd.Parameters.AddWithValue("@id", aspNetUserId);
 
                 using var reader = await cmd.ExecuteReaderAsync();
@@ -50,6 +52,8 @@ namespace AP_FINAL.Controllers
                 {
                     firstName = reader["prenom"].ToString() ?? "";
                     lastName = reader["nom"].ToString() ?? "";
+                    telephone = reader["telephone"]?.ToString() ?? "";
+                    adresse = reader["adresse"]?.ToString() ?? "";
                     idUtilisateur = Convert.ToInt32(reader["id_utilisateur"]);
                 }
             }
@@ -57,7 +61,7 @@ namespace AP_FINAL.Controllers
             {
                 Console.WriteLine("Erreur récupération nom/prénom : " + ex.Message);
             }
-            return (firstName, lastName, idUtilisateur);
+            return (firstName, lastName, idUtilisateur, telephone, adresse);
         }
 
         [HttpPost("Register")]
@@ -101,7 +105,8 @@ namespace AP_FINAL.Controllers
             var token = _tokenService.GenerateAccessToken(user, roles);
             var refreshToken = _tokenService.GenerateRefreshToken();
 
-            var (firstName, lastName, idUtilisateur) = await GetNomPrenomAsync(user.Id);
+            var (firstName, lastName, idUtilisateur, telephone, adresse) =
+    await GetNomPrenomAsync(user.Id);
 
             return Ok(new
             {
@@ -117,6 +122,8 @@ namespace AP_FINAL.Controllers
                     username = user.UserName,
                     firstName = model.FirstName,
                     lastName = model.LastName,
+                    telephone = telephone,
+                    adresse = adresse,
                     roles = roles
                 }
             });
@@ -136,7 +143,8 @@ namespace AP_FINAL.Controllers
             if (!isValidPassword)
                 return Unauthorized(new { message = "Email ou mot de passe incorrect" });
 
-            var (firstName, lastName, idUtilisateur) = await GetNomPrenomAsync(user.Id);
+            var (firstName, lastName, idUtilisateur, telephone, adresse) =
+    await GetNomPrenomAsync(user.Id);
 
             var roles = await _userManager.GetRolesAsync(user);
             var token = _tokenService.GenerateAccessToken(user, roles);
@@ -156,6 +164,8 @@ namespace AP_FINAL.Controllers
                     username = user.UserName,
                     firstName = firstName,
                     lastName = lastName,
+                    telephone = telephone,
+                    adresse = adresse,
                     roles = roles
                 }
             });
@@ -171,7 +181,7 @@ namespace AP_FINAL.Controllers
             if (user == null)
                 return NotFound(new { message = "Utilisateur non trouvé" });
 
-            var (firstName, lastName, idUtilisateur) = await GetNomPrenomAsync(user.Id);
+            var (firstName, lastName, idUtilisateur, telephone, adresse) = await GetNomPrenomAsync(user.Id);
             var roles = await _userManager.GetRolesAsync(user);
 
             return Ok(new
@@ -183,6 +193,8 @@ namespace AP_FINAL.Controllers
                 firstName = firstName,
                 lastName = lastName,
                 roles = roles,
+                telephone = telephone,
+                adresse = adresse,
                 emailConfirmed = user.EmailConfirmed
             });
         }

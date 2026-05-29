@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using RepositoryPOO;
+using System.Text.Json;
 
 namespace AP_FINAL.Controllers
 {
@@ -213,6 +214,61 @@ LEFT JOIN aspnetroles r ON r.Id = ur.RoleId";
             catch (Exception ex)
             {
                 return StatusCode(500, new { success = false, message = $"Erreur serveur : {ex.Message}" });
+            }
+        }
+
+        [HttpPut]
+        [Route("UpdateProfile")]
+        public IActionResult UpdateProfile([FromBody] JsonElement data)
+        {
+            try
+            {
+                int id = data.GetProperty("id").GetInt32();
+                string nom = data.GetProperty("nom").GetString() ?? "";
+                string prenom = data.GetProperty("prenom").GetString() ?? "";
+                string email = data.GetProperty("email").GetString() ?? "";
+                string telephone = data.TryGetProperty("telephone", out var telProp) ? telProp.GetString() ?? "" : "";
+                string adresse = data.TryGetProperty("adresse", out var adrProp) ? adrProp.GetString() ?? "" : "";
+
+                using var connection = new MySql.Data.MySqlClient.MySqlConnection(
+                    _configuration.GetConnectionString("DefaultConnection"));
+
+                connection.Open();
+
+                var cmd = new MySql.Data.MySqlClient.MySqlCommand(@"
+            UPDATE utilisateur
+            SET nom = @nom,
+                prenom = @prenom,
+                email = @email,
+                telephone = @telephone,
+                adresse = @adresse
+            WHERE id_utilisateur = @id", connection);
+
+                cmd.Parameters.AddWithValue("@nom", nom);
+                cmd.Parameters.AddWithValue("@prenom", prenom);
+                cmd.Parameters.AddWithValue("@email", email);
+                cmd.Parameters.AddWithValue("@telephone", telephone);
+                cmd.Parameters.AddWithValue("@adresse", adresse);
+                cmd.Parameters.AddWithValue("@id", id);
+
+                int rows = cmd.ExecuteNonQuery();
+
+                if (rows == 0)
+                    return NotFound("Utilisateur non trouvé");
+
+                return Ok(new
+                {
+                    id,
+                    nom,
+                    prenom,
+                    email,
+                    telephone,
+                    adresse
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
             }
         }
 
