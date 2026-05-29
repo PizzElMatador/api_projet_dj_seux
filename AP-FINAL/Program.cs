@@ -19,9 +19,11 @@ namespace AP_FINAL
                 options.AddPolicy("AllowAngular", policy =>
                 {
                     policy.WithOrigins(
-                            "http://localhost:4200",
-                            "https://localhost:4200"
-                        )
+    "http://localhost:4200",
+    "https://localhost:4200",
+    "http://172.20.123.2",
+    "https://172.20.123.2"
+)
                         .AllowAnyHeader()
                         .AllowAnyMethod();
                 });

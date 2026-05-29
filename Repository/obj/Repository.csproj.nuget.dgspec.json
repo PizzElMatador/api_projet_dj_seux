@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cleme\\Desktop\\API_PROJET\\api_projet_dj_seux\\Repository\\Repository.csproj": {}
+    "C:\\Users\\cleme\\Desktop\\api_projet_dj_seux\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cleme\\Desktop\\API_PROJET\\api_projet_dj_seux\\Repository\\Repository.csproj": {
+    "C:\\Users\\cleme\\Desktop\\api_projet_dj_seux\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleme\\Desktop\\API_PROJET\\api_projet_dj_seux\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\cleme\\Desktop\\api_projet_dj_seux\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\cleme\\Desktop\\API_PROJET\\api_projet_dj_seux\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\cleme\\Desktop\\api_projet_dj_seux\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\cleme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleme\\Desktop\\API_PROJET\\api_projet_dj_seux\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\cleme\\Desktop\\api_projet_dj_seux\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\NuGetPackages"
